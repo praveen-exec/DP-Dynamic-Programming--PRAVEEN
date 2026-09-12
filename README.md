@@ -331,7 +331,7 @@ making it much more efficient for larger inputs.
 # Problem 2 
 # Matrix Chain Multiplication (MCM)
 
-## 📌 Overview
+##  Overview
 
 **Matrix Chain Multiplication (MCM)** is a classic **Dynamic Programming** problem.
 
@@ -371,7 +371,7 @@ Our task is to determine the parenthesization that requires the **minimum number
 
 ---
 
-# 🔑 Important Concept
+# Important Concept
 
 Suppose:
 
@@ -438,7 +438,7 @@ Therefore:
 
 ---
 
-# 🎯 Example
+# Example
 
 Consider:
 
@@ -564,7 +564,7 @@ Minimum Cost = min(4500, 27000)
 
 ---
 
-# 🧠 Why Dynamic Programming?
+#  Why Dynamic Programming?
 
 A simple recursive solution tries **every possible partition**.
 
@@ -598,7 +598,7 @@ Dynamic Programming solves this problem by storing already calculated results.
 
 ---
 
-# 1️⃣ Recursive Approach
+# Recursive Approach
 
 ## Idea
 
@@ -664,7 +664,7 @@ min {
 
 ---
 
-# 🛑 Base Case
+# Base Case
 
 If:
 
@@ -739,7 +739,7 @@ int main() {
 
 ---
 
-# 🔍 Understanding the Recursive Code
+# Understanding the Recursive Code
 
 ## Step 1: Base Case
 
@@ -903,8 +903,7 @@ MCM(i,j)
 ```
 
 ---
-
-# 🧠 Main Idea
+#  Main Idea
 
 Before calculating:
 
@@ -937,7 +936,7 @@ Return it
 
 ---
 
-# 📦 DP Table
+# DP Table
 
 Initially:
 
@@ -1039,7 +1038,7 @@ int main() {
 
 ---
 
-# 🔍 Memoization Code Explanation
+#  Memoization Code Explanation
 
 ## DP Declaration
 
@@ -1384,7 +1383,7 @@ dominates.
 
 ---
 
-# 📌 Important Observations
+# Important Observations
 
 ### 1. Number of matrices
 
@@ -1504,7 +1503,7 @@ p[i-1] * p[k] * p[j]
 
 ---
 
-# 🧩 General Template for MCM
+#  General Template for MCM
 
 The general recursive pattern is:
 
