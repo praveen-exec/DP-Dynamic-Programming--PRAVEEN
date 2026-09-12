@@ -351,7 +351,7 @@ Therefore, we need to find the **best order of multiplication** that gives the m
 
 ---
 
-# 📚 Problem Statement
+#  Problem Statement
 
 Suppose we have matrices:
 
@@ -632,7 +632,7 @@ Then take the minimum.
 
 ---
 
-# 🔢 Formula
+#  Formula
 
 For every:
 
